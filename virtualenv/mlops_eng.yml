@@ -1,0 +1,19 @@
+name: mlops_eng
+channels:
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.12.9
+  - pip
+  - setuptools
+  - wheel
+  -  pip:
+     - mlflow>=3.0.0rc0 --pre
+     - ipykernel==6.29.5 
+     - pydantic_settings==2.5.2
+     - pandas==2.2.3  
+     - tqdm==4.67.1
+     - pyarrow==18.1.0
+     - fastparquet==2024.11.0
+prefix: /home/mlflow/miniconda3/envs/mlops_eng

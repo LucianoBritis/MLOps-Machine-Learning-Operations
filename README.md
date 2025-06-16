@@ -16,11 +16,11 @@
 
 ## Aprendizado Autodirigido
 
-- [**Introdução**](01-intro)
+- [**Introdução**](./introdução/README.md)
 - [**Rastreamento de Experimentos & Gerenciamento de Modelos**](02-rastreamento-de-experimentos)
 - [**Orquestração & Pipelines de ML**](03-orquestação)
-- [**Implantação 🚢**](04-deployment)
-- [**Monitoramento de Modelos**](05-monitoring)
+- [**Implantação 🚢**](04-implantação)
+- [**Monitoramento de Modelos**](05-monitoramento)
 
 ---
 
